@@ -8,7 +8,7 @@ git clone https://github.com/amholdings/docker-oracle-jre8.git
 
 cd docker-oracle-jre8
 
-docker build --tag="oracle-jre8" .
+docker build --tag="docker-oracle-jre8" .
 
 # Run Container: 
-docker run -it --rm  --name "oracle-jre8" amholdings/docker-oracle-jre8
+docker run -it --rm  --name "docker-oracle-jre8" amholdings/docker-oracle-jre8
