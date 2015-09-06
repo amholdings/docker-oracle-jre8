@@ -1,9 +1,9 @@
-# docker-oracle-jre8
+# amholdings/docker-oracle-jre8
 Docker Oracle Java 1.8 (Java SE Runtime Environment 8u60)
 
 
-# Build Image:  
+# Build Container:  
 docker build --tag="oracle-jre8" .
 
-# Run Images: 
+# Run Container: 
 docker run -it --rm  --name "oracle-jre8" amholdings/docker-oracle-jre8
