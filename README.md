@@ -3,6 +3,11 @@ Docker Oracle Java 1.8 (Java SE Runtime Environment 8u60)
 
 
 # Build Container:  
+
+git clone https://github.com/amholdings/docker-oracle-jre8.git
+
+cd docker-oracle-jre8
+
 docker build --tag="oracle-jre8" .
 
 # Run Container: 
